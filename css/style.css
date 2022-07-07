@@ -18,7 +18,8 @@ body {
   align-items: center;
 }
 
-.nav__menu {
+.nav__menu,
+.status-bar {
   display: flex;
   justify-content: space-between;
 }
@@ -40,4 +41,20 @@ body {
 .nav__section--active {
   font-weight: bold;
   color: white;
+}
+
+.status-bar {
+  height: 80px;
+  align-items: center;
+  background-color: #f58e18;
+  border-bottom: 1px solid #af6510;
+}
+
+.status {
+  margin: 20px;
+  font-size: 2rem;
+}
+
+.status__action {
+  margin: 20px;
 }
