@@ -1,5 +1,6 @@
 * {
   border: red solid 1px;
+  --air-margin: 20px;
 }
 
 html {
@@ -58,12 +59,12 @@ main {
 }
 
 .status {
-  margin: 20px;
+  margin: var(--air-margin);
   font-size: 2rem;
 }
 
 .status__action {
-  margin: 20px;
+  margin: var(--air-margin);
 }
 
 .items {
@@ -71,7 +72,7 @@ main {
   list-style: none;
   padding: 0;
   font-size: 1.5rem;
-  margin: 20px;
+  margin: var(--air-margin);
   border-bottom: 2px solid #999;
 }
 .item {
