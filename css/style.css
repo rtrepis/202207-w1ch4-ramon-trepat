@@ -1,5 +1,4 @@
 * {
-  border: red solid 1px;
   --air-margin: 20px;
 }
 
@@ -13,6 +12,7 @@ body {
 
 main {
   background-color: #faa442;
+  text-align: end;
 }
 
 .nav {
@@ -78,4 +78,9 @@ main {
 .item {
   flex-direction: row;
   padding: 5px 0;
+}
+
+.items__cost {
+  margin: var(--air-margin);
+  font-size: 2rem;
 }
